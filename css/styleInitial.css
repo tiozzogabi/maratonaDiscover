@@ -10,8 +10,16 @@
 }
 
 body{
-    background: rgb(34,82,17);
-    background: linear-gradient(160deg, rgba(34,82,17,1) 0%, rgba(45,74,34,1) 43%);
+    
+    background-image: url(../assets/austin-distel-nGc5RT2HmF0-unsplash.jpg);
+}
+
+.greenCover{
+    background-color: rgba(9, 80, 9, 0.322);
+}
+
+
+.screen{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -45,7 +53,6 @@ button{
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    animation: show 1.3s ease-out ;
 }
 
 button:hover{
